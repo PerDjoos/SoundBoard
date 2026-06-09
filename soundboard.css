@@ -3,6 +3,9 @@ body {
 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    background-image: url(pattern.gif);
+    background-size: 1500px;
 }
 #funny{
     grid-column: 1/span 2; text-align: center; background-color: aqua;
