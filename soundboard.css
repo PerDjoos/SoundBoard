@@ -12,7 +12,7 @@ body {
     display: grid; gap: .75rem; padding: 1rem; grid-template-columns: repeat(4, 1fr);
 }
 #funny button {
-    height: 3rem;
+    padding: .1rem;
 }
 #vol{
     grid-column: 3; text-align: center; background-color: blue;
@@ -29,6 +29,8 @@ body {
     grid-column: 2/span 3; text-align: center; background-color: navy;
     display: grid; gap: .75rem; padding: 1rem; grid-template-columns: repeat(3, 1fr);
 }
+
+#human button {padding: 0.1rem;}
 
 #funny button img,
 #vol button img,
