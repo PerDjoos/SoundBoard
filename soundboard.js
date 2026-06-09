@@ -14,6 +14,11 @@ var quack = new Audio('quack2.mp3')
 var slurp = new Audio('slurp2.mp3')
 var what = new Audio('what.mp3')
 var tvstatic = new Audio('tv-static.mp3')
+var chancellor = new Audio('chancellor.mp3')
+var riff = new Audio('riff.mp3')
+var laugh = new Audio('laugh.mp3')
+var nikki = new Audio('nikki.mp3')
+var spring = new Audio('spring.mp3')
 
 function playSound(sound){
     sound.play();
